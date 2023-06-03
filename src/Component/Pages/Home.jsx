@@ -2,6 +2,7 @@ import React from "react";
 import Layout from "../Layout/Layout";
 import { Link } from "react-router-dom";
 import Banner from "../Image/banner.jpeg";
+import "../Style/HomeStyle.css";
 const Home = () => {
   return (
     <Layout>
