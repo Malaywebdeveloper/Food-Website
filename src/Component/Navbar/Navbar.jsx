@@ -26,7 +26,7 @@ const Navbar = () => {
         color={"goldenrod"}
         variant="h6"
         component="div"
-        sx={{ flexGrow: 1, my:1}}
+        sx={{ flexGrow: 1, my: 1 }}
       >
         <FastfoodIcon />
         MY RESTURENT
@@ -50,7 +50,7 @@ const Navbar = () => {
   return (
     <>
       <Box>
-        <AppBar component={"nav"} sx={{ bgcolor: "black" }}>
+        <AppBar component={"nav"} sx={{ bgcolor: "blue" }}>
           <Toolbar>
             <IconButton
               color="inherit"
@@ -67,8 +67,10 @@ const Navbar = () => {
               component="div"
               sx={{ flexGrow: 1 }}
             >
+            <Link to={"/"}>
               <FastfoodIcon />
               MY RESTURENT
+              </Link>
             </Typography>
             <Box sx={{ display: { xs: "none", sm: "block" } }}>
               <ul className="navigation-menu">
