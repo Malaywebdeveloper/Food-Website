@@ -1,6 +1,19 @@
- .home {
+.home {
   height: 90vh;
   display: flex;
-  justify-content: center;
+  /* justify-content: center; */
   align-items: left;
- }
+}
+.headerContainer {
+  font-size: 30px;
+  gap: 10px;
+}
+.headerContainer h1 {
+  font-size: 60px;
+}
+.headerContainer p {
+  font-size: 40px;
+}
+.headerContainer button {
+  background-color: rgba(0, 0, 0, 0.454);
+}
