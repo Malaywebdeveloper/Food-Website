@@ -66,10 +66,11 @@ const Navbar = () => {
               variant="h6"
               component="div"
               sx={{ flexGrow: 1 }}
+            
             >
-            <Link to={"/"}>
-              <FastfoodIcon />
-              MY RESTURENT
+              <Link style={{ textDecoration: "none", color: "white" }} to={"/"}>
+                <FastfoodIcon />
+                MY RESTURENT
               </Link>
             </Typography>
             <Box sx={{ display: { xs: "none", sm: "block" } }}>
