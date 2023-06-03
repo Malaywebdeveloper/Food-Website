@@ -95,19 +95,10 @@ const Navbar = () => {
             variant="temporary"
             open={mobileOpen}
             onClose={handleDrawerToggle}
-            //   sx={{
-            //      display: { xs: "block", sm: "none" },"& .MuiDrawer-paper":{
-            //     boxSizing:"border-box"
-            //     width:"240px"
-            //   }
-            //  }}
           >
             {drawer}
           </Drawer>
         </Box>
-        {/* <Box sx={{ my: 1 }}>
-          <Toolbar />
-        </Box> */}
       </Box>
     </>
   );
