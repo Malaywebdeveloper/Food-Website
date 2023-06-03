@@ -103,9 +103,9 @@ const Navbar = () => {
             {drawer}
           </Drawer>
         </Box>
-        <Box sx={{ my: 1 }}>
+        {/* <Box sx={{ my: 1 }}>
           <Toolbar />
-        </Box>
+        </Box> */}
       </Box>
     </>
   );
