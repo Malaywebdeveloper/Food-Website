@@ -1,0 +1,33 @@
+.AboutImage {
+  padding-top: 30px;
+  padding-bottom: 70px;
+  background-image: url("https://wallpaperaccess.com/full/3692584.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  color: black;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.AboutImage h4 {
+  color: white;
+}
+
+.AboutImage p {
+  color: black;
+}
+/* 
+hr {
+  border-top: 5px dotted red;
+  color: red;
+  size: 30%;
+} */
+@media only screen and (max-width: 600px) {
+  .AboutImage {
+    justify-content: center;
+    align-items: center;
+  }
+}
