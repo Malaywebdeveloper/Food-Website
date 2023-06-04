@@ -27,7 +27,7 @@
   margin: 0;
 }
 .headerContainer button {
-  background-color: blue;
+  background-color: rgba(0, 0, 255, 0.802);
   color: white;
   font-size: 24px;
   padding: 15px 50px;
@@ -35,8 +35,37 @@
   cursor: pointer;
 }
 
-@media only screen and (max-width:600px){
-    .home{
-        justify-content: center;
-    }
+@media only screen and (max-width: 600px) {
+  .home {
+    justify-content: center;
+    align-items: center;
+  }
+  .headerContainer {
+    margin-left: 0;
+    border-radius: 10px;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgba(0, 0, 255, 0.605);
+    color: white;
+  }
+  .home .headerContainer h1 {
+    font-size: 40px;
+    height: 30px;
+    margin: 30px 0px;
+    color: white;
+  }
+  .home .headerContainer p {
+    font-size: 30px;
+    color: white;
+  }
+  .headerContainer button {
+    background-color: white;
+    color: rgba(0, 0, 255, 0.527);
+    margin-bottom: 30px;
+  }
 }
+
+

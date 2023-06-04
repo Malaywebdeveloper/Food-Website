@@ -66,7 +66,6 @@ const Navbar = () => {
               variant="h6"
               component="div"
               sx={{ flexGrow: 1 }}
-            
             >
               <Link style={{ textDecoration: "none", color: "white" }} to={"/"}>
                 <FastfoodIcon />
