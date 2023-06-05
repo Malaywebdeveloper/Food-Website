@@ -21,6 +21,10 @@ const About = () => {
             "& p": {
               textAlign: "justify",
             },
+            "@media (max-width:600px)": {
+              mb: 0,
+              
+            },
           }}
         >
           <Typography variant="h4">Welcome To Henakul Restuarant</Typography>
