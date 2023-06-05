@@ -5,8 +5,8 @@ import "../Style/About.css";
 
 const About = () => {
   return (
-    <div className="AboutImage">
-      <Layout>
+    <Layout>
+      <div className="AboutImage">
         {/* style={{ backgroundImage: `url(${Banner})` }} */}
         <Box
           sx={{
@@ -23,7 +23,6 @@ const About = () => {
             },
             "@media (max-width:600px)": {
               mb: 0,
-              
             },
           }}
         >
@@ -60,8 +59,8 @@ const About = () => {
             temporibus iste cupiditate eum culpa illo eos quibusdam reiciendis.
           </p>
         </Box>
-      </Layout>
-    </div>
+      </div>
+    </Layout>
   );
 };
 
