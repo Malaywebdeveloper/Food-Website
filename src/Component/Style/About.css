@@ -1,6 +1,6 @@
 .AboutImage {
-  padding-top: 30px;
-  padding-bottom: 70px;
+  /* padding-top: 30px; */
+  /* padding-bottom: 70px; */
   background-image: url("https://wallpaperaccess.com/full/3692584.jpg");
   background-position: center;
   background-repeat: no-repeat;
@@ -29,5 +29,6 @@ hr {
   .AboutImage {
     justify-content: center;
     align-items: center;
+    height: auto;
   }
 }
